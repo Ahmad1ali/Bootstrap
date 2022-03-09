@@ -1,6 +1,53 @@
-div{
-    background-color:#aaa;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px solid  aquamarine;
+.container {
+    background:black ;
+    font-size: 10px;
+    color: white;
+}
+.container .row div {
+    border: 1px solid white; 
+    text-align: center;
+    padding: 10px;
+    background-color:black;
+}
+
+ .text-are {
+    height: 90px;
+}
+.container2 {
+    margin: 60px;
+    text-align: center;
+    color: white;
+}
+.container2  div {
+    border: 1px solid white;
+    float: left;
+    background: black;
+    height: 190px;
+}
+.container2 button{
+    margin-top:100px;
+}
+.container3{
+    background-color: black;
+    margin-top:290px;
+    color: white;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+}
+.container3 div {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    float: left; 
+    margin: 10px 100px 0px 180px;
+    padding: 10px;
+}
+.container4 {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    margin-top: 40px;
+    height: 80vh;
+    color: white;
 }
